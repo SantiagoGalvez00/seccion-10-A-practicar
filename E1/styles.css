@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+
+    background-color: black;
+    position: relative;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.btn .anterior {
+    left: 0;
+}
+
+.btn .siguiente {
+    right: 0;
+}
+
+.gallery-container {
+    display: none;
+    justify-content: center;
+}
+
+.switch {
+    align-self: center;
+    width: 25%;
+}
